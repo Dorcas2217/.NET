@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2P4c/bVnBwcUJwGwzYC89ongcQizfvUkYIY4YpvHQ5gHSn/QC4FKxnm1IYd0ZgzIAoyl/2NdzQuvU2xKbcZDw==",
+  "dgSpecHash": "mVUGYfxZ9oIiMFNSrHrDjyf7YnWCBjKMIe+S5Q1XgdFzfwN4NG9spOXduImN3vxgYOxetFM37epOK/nGP8LvxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\SchoolApp.csproj",
+  "projectFilePath": "C:\\Users\\.NET\\séance4-SchoolApp\\SchoolApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steph\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\steph\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

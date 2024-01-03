@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\SchoolApp.csproj": {}
+    "C:\\Users\\.NET\\séance4-SchoolApp\\SchoolApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\SchoolApp.csproj": {
+    "C:\\Users\\.NET\\séance4-SchoolApp\\SchoolApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\SchoolApp.csproj",
+        "projectUniqueName": "C:\\Users\\.NET\\séance4-SchoolApp\\SchoolApp.csproj",
         "projectName": "SchoolApp",
-        "projectPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\SchoolApp.csproj",
+        "projectPath": "C:\\Users\\.NET\\séance4-SchoolApp\\SchoolApp.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\SchoolApp\\obj\\",
+        "outputPath": "C:\\Users\\.NET\\séance4-SchoolApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
