@@ -1,0 +1,12 @@
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.deps.json
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.dll
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\bin\Debug\net6.0\LINQ_DataContext.pdb
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.csproj.AssemblyReference.cache
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.GeneratedMSBuildEditorConfig.editorconfig
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.AssemblyInfoInputs.cache
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.AssemblyInfo.cs
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.csproj.CoreCompileInputs.cache
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.dll
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\refint\LINQ_DataContext.dll
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\LINQ_DataContext.pdb
+U:\Séance 2 - LINQ-20230920\Semaine 2 - LINQ_DataContext\obj\Debug\net6.0\ref\LINQ_DataContext.dll

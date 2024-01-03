@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\.NET\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\.NET\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\.NET\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-        "projectName": "ConsoleApp2",
-        "projectPath": "C:\\Users\\.NET\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
-        "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\.NET\\ConsoleApp2\\ConsoleApp2\\obj\\",
+        "projectUniqueName": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "projectName": "LINQ_DataContext",
+        "projectPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "packagesPath": "C:\\Users\\20211771\\.nuget\\packages\\",
+        "outputPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20211771\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
