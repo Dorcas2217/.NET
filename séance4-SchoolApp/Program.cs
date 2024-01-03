@@ -109,11 +109,11 @@ while (!exit)
 
             foreach (var group in studentsBySection)
             {
-                Console.WriteLine($"Section: {group.Key.Name}");
+                Console.WriteLine($"    Section: {group.Key.Name}");
 
                 foreach (Student stud in group.OrderByDescending(s => s.YearResult))
                 {
-                    Console.WriteLine($"  Student: {stud.Name}, {stud.Firstname}, Result: {stud.YearResult}");
+                    Console.WriteLine($"    Student: {stud.Name}, {stud.Firstname}, Result: {stud.YearResult}");
 
                 }
             }
