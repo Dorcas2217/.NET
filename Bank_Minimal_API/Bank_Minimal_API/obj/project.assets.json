@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Bank_Minimal_API\\Bank_Minimal_API\\Bank_Minimal_API.csproj",
+      "projectUniqueName": "C:\\Users\\.NET\\Bank_Minimal_API\\Bank_Minimal_API\\Bank_Minimal_API.csproj",
       "projectName": "Bank_Minimal_API",
-      "projectPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Bank_Minimal_API\\Bank_Minimal_API\\Bank_Minimal_API.csproj",
+      "projectPath": "C:\\Users\\.NET\\Bank_Minimal_API\\Bank_Minimal_API\\Bank_Minimal_API.csproj",
       "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Bank_Minimal_API\\Bank_Minimal_API\\obj\\",
+      "outputPath": "C:\\Users\\.NET\\Bank_Minimal_API\\Bank_Minimal_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,18 +17,23 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.MapGet("/tva", (double prix, string code) =>
+app.MapGet("/tva/{price}/{codee}", (int prix, string code) =>
 {
     double tva = 0;
+
     if(code == "BE")
     {
-        tva = prix + 21;
+        tva = prix * 1.21;
+        return Results.Ok("Prix TVA Belgique:  " + tva);
     }
-    else
+
+    if(code == "FR")
     {
-        tva = prix + 20;
+        tva = prix * 1.20;
+        return Results.Ok("Prix TVA France:  " + tva);
     }
-    return tva;
+
+    return  Results.BadRequest("code de pays non valide; utilisez BE ou FR ");
 });
 
 app.Run();
