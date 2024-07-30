@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {}
+    "C:\\Users\\steph\\Documents\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
+    "C:\\Users\\steph\\Documents\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Documents\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
         "projectName": "LINQ_DataContext",
-        "projectPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "projectPath": "C:\\Users\\steph\\Documents\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\obj\\",
+        "outputPath": "C:\\Users\\steph\\Documents\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
