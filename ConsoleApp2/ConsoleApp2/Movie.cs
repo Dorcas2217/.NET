@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Movie
+    public class Movie
     {
         private String title;
         private int releaseYear;
@@ -15,18 +15,18 @@ namespace ConsoleApp2
         private Director director;
 
 
-        public Movie(String title, int releaseYear)
+        public Movie(string title, int releaseYear)
         {
             actors = new List<Actor>();
             this.title = title;
             this.releaseYear = releaseYear;
         }
 
-        public Director getDirector()
+        public Director Director()
         {
             return director;
         }
-        public void setDirector(Director director)
+        public void Director(Director director)
         {
             if (director == null)
                 return;
@@ -34,42 +34,42 @@ namespace ConsoleApp2
             director.addMovie(this);
         }
 
-        public String getTitle()
+        public string Title()
         {
             return title;
         }
-        public void setTitle(String title)
+        public void Title(String title)
         {
             this.title = title;
         }
-        public int getReleaseYear()
+        public int ReleaseYear()
         {
             return releaseYear;
         }
-        public void setReleaseYear(int releaseYear)
+        public void ReleaseYear(int releaseYear)
         {
             this.releaseYear = releaseYear;
         }
 
-        public bool addActor(Actor actor)
+        public bool AddActor(Actor actor)
         {
             if (actors.Contains(actor))
                 return false;
 
             actors.Add(actor);
-            if (!actor.containsMovie(this))
-                actor.addMovie(this);
+            if (!actor.ContainsMovie(this))
+                actor.AddMovie(this);
 
             return true;
         }
 
-        public bool containsActor(Actor actor)
+        public bool ContainsActor(Actor actor)
         {
             return actors.Contains(actor);
         }
 
         
-    public override String ToString()
+    public override string ToString()
         {
             return "Movie [title=" + title + ", releaseYear=" + releaseYear + "]";
         }

@@ -1,40 +1,45 @@
-﻿using System;
+﻿using ConsoleApp2;
+using Org.BouncyCastle.Security;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Security;
 
 namespace ConsoleApp2
 {
-    internal class PersonList
+    public class PersonList
     {
         private static PersonList instance;
-        private Dictionary<String, Person> personMap;
+        private readonly Dictionary<string, Person> personMap;
 
         private PersonList()
         {
             personMap = new Dictionary<string, Person>();
         }
 
-        public static PersonList getInstance()
+        public static PersonList Instance
         {
-
-            if (instance == null)
-                instance = new PersonList();
-
-            return instance;
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new PersonList();
+                }
+                return instance;
+            }
         }
 
-        public void addPerson(Person person)
+        public void AddPerson(Person person)
         {
             if (person == null)
-                throw new ArgumentException();
-            personMap.Add(person.getName(), person);
+            {
+                throw new InvalidParameterException("Person cannot be null");
+            }
+            personMap[person.Name] = person;
         }
 
-        public IEnumerable<Person> personList()
+        public IEnumerable<Person> GetPersonList()
         {
-            return personMap.Values.AsEnumerable();
+            return personMap.Values;
         }
     }
 }

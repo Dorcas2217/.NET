@@ -1,55 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace ConsoleApp2
 {
-    internal class Person 
+    [Serializable]
+    public class Person
     {
-        private static readonly long serialVersionUID = 1L;
+        private readonly string name;
+        private readonly string firstname;
+        private readonly DateTime birthDate;
 
-        private readonly String name;
-	private readonly String firstname;
-	private readonly DateTime birthDate;
-	
-	public String getName()
+        public virtual string Name => name;
+        public string Firstname => firstname;
+
+        public string BirthDate
         {
-            return name;
+            get
+            {
+                return birthDate.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture);
+            }
         }
 
-        public String getFirstname()
-        {
-            return firstname;
-        }
-
-        public String getBirthDate()
-        {
-             
-            return birthDate.ToString();
-        }
-
-
-        public Person(String name, String firstname, DateTime birthDate)
+        public Person(string name, string firstname, DateTime birthDate)
         {
             this.name = name;
             this.firstname = firstname;
             this.birthDate = birthDate;
         }
 
-       
-    public  String ToString()
+        public override string ToString()
         {
-      
-            return "Person [name = " + name + ", firstname = " + firstname + ", birthDate =  " + getBirthDate() + "]";
+            return $"Person [name = {Name}, firstname = {Firstname}, birthDate = {BirthDate}]";
         }
     }
-
-   
-
-    
-    
 }

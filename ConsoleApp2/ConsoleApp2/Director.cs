@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Director 
+    public class Director : Person
     {
-        private static readonly long serialVersionUID = 5952964360274024205L;
         private List<Movie> directedMovies;
 
-        public Director(String name, String firstname, Calendar birthDate)
+        public Director(String name, String firstname, DateTime birthDate) : base(name, firstname, birthDate)
         {
-            base(name, firstname, birthDate);
+            
             directedMovies = new List<Movie>();
         }
 
@@ -24,8 +23,8 @@ namespace ConsoleApp2
             if (directedMovies.Contains(movie))
                 return false;
 
-            if (movie.getDirector() == null)
-                movie.setDirector(this);
+            if (movie.Director() == null)
+                movie.Director(this);
 
             directedMovies.Add(movie);
 

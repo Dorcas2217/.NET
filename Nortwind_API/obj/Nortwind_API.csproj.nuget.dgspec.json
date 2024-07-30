@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Nortwind_API\\Nortwind_API.csproj": {}
+    "C:\\Users\\.NET\\Nortwind_API\\Nortwind_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Nortwind_API\\Nortwind_API.csproj": {
+    "C:\\Users\\.NET\\Nortwind_API\\Nortwind_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Nortwind_API\\Nortwind_API.csproj",
+        "projectUniqueName": "C:\\Users\\.NET\\Nortwind_API\\Nortwind_API.csproj",
         "projectName": "Nortwind_API",
-        "projectPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Nortwind_API\\Nortwind_API.csproj",
+        "projectPath": "C:\\Users\\.NET\\Nortwind_API\\Nortwind_API.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steph\\Documents\\Programmation\\.Net\\Nortwind_API\\obj\\",
+        "outputPath": "C:\\Users\\.NET\\Nortwind_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",

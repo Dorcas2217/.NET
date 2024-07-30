@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "U:\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj": {}
+    "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj": {}
   },
   "projects": {
-    "U:\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj": {
+    "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj",
+        "projectUniqueName": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj",
         "projectName": "S2_LINQ",
-        "projectPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj",
-        "packagesPath": "C:\\Users\\20211771\\.nuget\\packages\\",
-        "outputPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\obj\\",
+        "projectPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\S2_LINQ.csproj",
+        "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\S2_LINQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20211771\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
-                "projectPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj"
+              "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
+                "projectPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
+    "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "projectUniqueName": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
         "projectName": "LINQ_DataContext",
-        "projectPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
-        "packagesPath": "C:\\Users\\20211771\\.nuget\\packages\\",
-        "outputPath": "U:\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\obj\\",
+        "projectPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+        "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\.NET\\Séance 2 - LINQ-20230920\\Semaine 2 - LINQ_DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20211771\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

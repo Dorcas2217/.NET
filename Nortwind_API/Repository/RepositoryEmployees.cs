@@ -1,16 +1,16 @@
-﻿using System.Linq.Expressions;
+﻿using Nortwind_API.Entities;
+using Nortwind_API.Models;
+using Repository;
+
 
 namespace Nortwind_API.Repository
 {
-    public interface RepositoryEmployees<Employee>
+    public class RepositoryEmployees : BaseRepositorySQL<EmployeDTO>
     {
-        Task InsertAsync(Employee entity);
-        Task DeleteAsync(Employee entity);
-        Task<IList<Employee>> SearchForAsync(Expression<Func<Employee, bool>> predicate);
-        // save entity, test via predicate if entity exists
-        Task<bool?> SaveAsync(Employee entity, Expression<Func<Employee, bool>> predicate);
-        Task<IList<Employee>> GetAllAsync();
-        Task<Employee?> GetByIdAsync(int id);
+        public RepositoryEmployees(NorthwindContext dbContext) : base(dbContext)
+        {
+
+        }
     }
 
 }
